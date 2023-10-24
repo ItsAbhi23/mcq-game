@@ -1,0 +1,88 @@
+/* Quiz.css
+.quiz-container {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 10px;
+    cursor: pointer;
+    
+    float: inherit;
+    &:hover {
+      background-color: #e0e0e0;
+    }
+  }
+  
+  .selected {
+    background-color: #007bff;
+    color: white;
+    cursor: not-allowed;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+   */
+   /* Quiz.css */
+/* Quiz.css */
+.quiz-container {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+  }
+  
+  ol {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* Display options vertically */
+  }
+  
+  li {
+    padding: 10px;
+    cursor: pointer;
+    display: flex; /* Display checkboxes and labels in a row */
+    align-items: center; /* Center align checkboxes and labels vertically */
+    &:hover {
+      background-color: #e0e0e0;
+    }
+  }
+  
+  /* Style the checkboxes to be on the left side */
+  li input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  li label{
+    cursor: pointer;
+  }
+  .selected {
+    background-color: #007bff;
+    color: white;
+    cursor: not-allowed;
+  }
+  
+  button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .Score{
+    margin: auto;
+    margin-top: 100px;
+  }
